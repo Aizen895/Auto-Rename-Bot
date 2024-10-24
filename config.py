@@ -3,12 +3,12 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "28713982")
+    API_HASH  = os.environ.get("API_HASH", "237e15f7c006b10b4fa7c46fee7a5377")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6110777488:AAHYEdx1lqPfiq5tUYDI87DomLz7TKoQgUw") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","AshutoshGoswami24")     
+    DB_NAME = os.environ.get("DB_NAME","Cluster0")     
     DB_URL  = os.environ.get("DB_URL","")
  
     # other configs
@@ -27,44 +27,44 @@ class Config(object):
 class Txt(object):
     # part of text configuration
         
-    START_TXT = """Hello {} 
+    START_TXT = """ʜᴇʏ {} 
     
-➻ This Is An Advanced And Yet Powerful Rename Bot.
+➻ 🫧 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ʀᴇɴᴀᴍᴇ ʙᴏᴛ!.
     
-➻ Using This Bot You Can Auto Rename Of Your Files.
-    
-➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
-    
-➻ Use /tutorial Command To Know How To Use Me.
+➻ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ ʏᴏᴜ ᴄᴀɴ ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ ʏᴏᴜʀ ғɪʟᴇ
 
-<b>Bot Is Made By @AshutoshGoswami24</b>
+➻ ᴛʜɪs ʙᴏᴛ ᴀʟsᴏ sᴜᴘᴘᴏʀᴛs ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴀɴᴅ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ
+    
+➻ ᴜsᴇ /ᴛᴜᴛᴏʀɪᴀʟ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ.
 
-<b><a href='https://github.com/AshutoshGoswami24/Auto-Rename-Bot'>AshutoshGoswami24/Auto-Rename-Bot.git</a></b>
+<b>ʙᴏᴛ ɪs ᴍᴀᴅᴇ ғᴏʀ ᴘᴜʙʟɪᴄ ᴜsᴇ ᴀɴᴅ ᴜsᴇ ᴄᴀɴ ᴀʟsᴏ ʀᴇɴᴀᴍᴇ 𝟷𝟾+ ᴄᴏɴᴛᴇɴᴛ ᴀʟsᴏ</b>
+
+<b><a href='https://t.me/Anime_Madness'>/ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ</a></b>
 """
     
     FILE_NAME_TXT = """<b><u>SETUP AUTO RENAME FORMAT</u></b>
 
 Use These Keywords To Setup Custom File Name
 
-✓ `[episode]` :- To Replace Episode Number
-✓ `[quality]` :- To Replace Video Resolution
+✓ `[episode]` :- ᴛᴏ ʀᴇᴘʟᴀᴄᴇ ᴇᴘɪsᴏᴅᴇ ɴᴜᴍʙᴇʀ
+✓ `[quality]` :- ᴛᴏ ʀᴇᴘʟᴀᴄᴇ ᴠɪᴅᴇᴏ ʀᴇsᴏʟᴜᴛɪᴏɴ
 
-<b>➻ Example :</b> <code> /autorename Naruto Shippuden S01[episode] [quality][Dual Audio] @AshutoshGoswami24</code>
+<b>➻ Example :</b> <code> /autorename Naruto Shippuden S01[episode] [quality][Dual Audio] @Anime_Madness</code>
 
 <b>➻ Your Current Auto Rename Format :</b> <code>{format_template}</code> """
     
     ABOUT_TXT = f"""<b>🤖 My Name :</b>
-<b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
-<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
-<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/AshutoshGoswami24'>PandaWep</a>
+<b>📝 ʟᴀɴɢᴜᴀɢᴇ :</b> <a href='https://python.org'>Python 3</a>
+<b>📚 ʟɪʙʀᴀʀʏ :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
+<b>🚀 sᴇʀᴠᴇʀ :</b> <a href='https://heroku.com'>Heroku</a>
+<b>🧑‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ :</b> <a href='https://t.me/LUFFY1JOYBOY'>ʟᴀᴡ sᴇɴᴘᴀɪ</a>
     
-<b>♻️ Bot Made By :</b> @AshutoshGoswami24"""
+<b>♻️ Bot Made By :</b> @LUFFY1JOYBOY"""
 
     
-    THUMBNAIL_TXT = """<b><u>🖼️  HOW TO SET THUMBNAIL</u></b>
+    THUMBNAIL_TXT = """<b><u>🖼️  ʜᴏᴡ ᴛᴏ sᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ</u></b>
     
-⦿ You Can Add Custom Thumbnail Simply By Sending A Photo To Me....
+⦿ ʏᴏᴜ ᴄᴀɴ ᴀᴅᴅ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ sɪᴍᴘʟʏ ʙʏ sᴇɴᴅɪɴɢ A ᴘʜᴏᴛᴏ ᴛᴏ Me....
     
 ⦿ /viewthumb - Use This Command To See Your Thumbnail
 ⦿ /delthumb - Use This Command To Delete Your Thumbnail"""
@@ -81,19 +81,19 @@ Use These Keywords To Setup Custom File Name
 ┣⪼ ⏳️ Dᴏɴᴇ : {0}%
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
 ┣⪼ ⏰️ Eᴛᴀ: {4}
-┣⪼ 🥺 joine Plz: @AshutoshGoswami24
+┣⪼ 🤖 ᴀɴɪᴍᴇ: @Anime_Madness
 ╰━━━━━━━━━━━━━━━➣ </b>"""
     
     
-    DONATE_TXT = """<b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
+    DONATE_TXT = """<b>🥲 ᴛʜᴀɴᴋs  ғᴏʀ sʜᴏᴡɪɴɢ ɪɴᴛᴇʀᴇsᴛ ɪɴ ᴅᴏɴᴀᴛɪᴏɴ! ❤️</b>
     
-If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
+ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍʏ ʙᴏᴛs & ᴘʀᴏᴊᴇᴄᴛs, ʏᴏᴜ ᴄᴀɴ 🎁 ᴅᴏɴᴀᴛᴇ ᴍᴇ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ғʀᴏᴍ 𝟷𝟶 ʀs ᴜᴘᴛᴏ ʏᴏᴜʀ ᴄʜᴏɪᴄᴇ.
     
-<b>My UPI - PandaWep@ybl</b> """
+<b>ғᴏʀ ᴅᴏɴᴀᴛɪᴏɴ - ᴅᴍ @LUFFY1JOYBOY</b> """
     
     HELP_TXT = """<b>Hey</b> {}
     
-Joine @AshutoshGoswami24 To Help """
+ᴊᴏɪɴ @Anime_Madness ᴛᴏ ʜᴇʟᴘ """
 
 
 
