@@ -20,8 +20,8 @@ async def start(client, message):
     button = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📢 Updates", url="https://t.me/AshutoshGoswami24"),
-                InlineKeyboardButton("💬 Support", url="https://t.me/AshuSupport"),
+                InlineKeyboardButton("📢 Updates", url="https://t.me/Anime_Madness"),
+                InlineKeyboardButton("💬 Support", url="https://t.me/Weebs_Madness"),
             ],
             [
                 InlineKeyboardButton("⚙️ Help", callback_data="help"),
@@ -29,7 +29,7 @@ async def start(client, message):
             ],
             [
                 InlineKeyboardButton(
-                    "🧑‍💻 Developer 🧑‍💻", url="https://t.me/AshutoshGoswami24"
+                    "🧑‍💻 Developer 🧑‍💻", url="https://t.me/LUFFY1JOYBOY"
                 )
             ],
         ]
@@ -60,9 +60,9 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📢 Updates", url="https://t.me/AshutoshGoswami24"),
+                        InlineKeyboardButton("📢 Updates", url="https://t.me/Anime_Madness"),
                         InlineKeyboardButton(
-                            "💬 Support", url="https://t.me/AshuSupport"
+                            "💬 Support", url="https://t.me/Weebs_Madness"
                         ),
                     ],
                     [
@@ -71,7 +71,7 @@ async def cb_handler(client, query: CallbackQuery):
                     ],
                     [
                         InlineKeyboardButton(
-                            "🧑‍💻 Developer 🧑‍💻", url="https://t.me/AshutoshGoswami24"
+                            "🧑‍💻 Developer 🧑‍💻", url="https://t.me/LUFFY1JOYBOY"
                         )
                     ],
                 ]
